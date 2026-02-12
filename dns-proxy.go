@@ -183,9 +183,9 @@ type RuleManager struct {
 type Metrics struct {
 	dnsQueries     int64 // DNS 查询总数
 	dnsIntercepted int64 // 被拦截的查询
-	proxyConns     int32 // 活跃代理连接数
 	proxyForwarded int64 // 代理转发次数
 	proxySocks5    int64 // SOCKS5 代理转发次数
+	proxyConns     int32 // 活跃代理连接数
 }
 
 // DNSLog DNS查询日志
